@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F13CFF35DD373E97F7DCC50 /* libPods-Category_Network.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CBFC873AD06CE685F4E62C /* libPods-Category_Network.a */; };
 		FD43E01C1F1741B9002AC077 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD43E01B1F1741B9002AC077 /* AppDelegate.m */; };
 		FD43E01F1F1741B9002AC077 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD43E01E1F1741B9002AC077 /* ViewController.m */; };
 		FD43E0221F1741B9002AC077 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD43E0201F1741B9002AC077 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		FD43E0271F1741B9002AC077 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD43E0251F1741B9002AC077 /* LaunchScreen.storyboard */; };
 		FD43E02A1F1741B9002AC077 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD43E0291F1741B9002AC077 /* main.m */; };
 		FD43E0341F1741B9002AC077 /* Category_NetworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD43E0331F1741B9002AC077 /* Category_NetworkUITests.m */; };
+		FD8D60D61F174355006E03B0 /* CTMediator+Network.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8D60D51F174355006E03B0 /* CTMediator+Network.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2FA59A6CF924E9358F0CEEEC /* Pods-Category_Network.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Category_Network.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Category_Network/Pods-Category_Network.debug.xcconfig"; sourceTree = "<group>"; };
+		B0CBFC873AD06CE685F4E62C /* libPods-Category_Network.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Category_Network.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F523AD18D7037D8844FE27CE /* Pods-Category_Network.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Category_Network.release.xcconfig"; path = "Pods/Target Support Files/Pods-Category_Network/Pods-Category_Network.release.xcconfig"; sourceTree = "<group>"; };
 		FD43E0171F1741B9002AC077 /* Category_Network.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Category_Network.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD43E01A1F1741B9002AC077 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FD43E01B1F1741B9002AC077 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -40,6 +45,8 @@
 		FD43E02F1F1741B9002AC077 /* Category_NetworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Category_NetworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD43E0331F1741B9002AC077 /* Category_NetworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Category_NetworkUITests.m; sourceTree = "<group>"; };
 		FD43E0351F1741B9002AC077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD8D60D41F174355006E03B0 /* CTMediator+Network.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+Network.h"; sourceTree = "<group>"; };
+		FD8D60D51F174355006E03B0 /* CTMediator+Network.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+Network.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F13CFF35DD373E97F7DCC50 /* libPods-Category_Network.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +68,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		90BAEF0A5D55676C01A30772 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0CBFC873AD06CE685F4E62C /* libPods-Category_Network.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2A4634D3F004F7FF9EE3884 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FA59A6CF924E9358F0CEEEC /* Pods-Category_Network.debug.xcconfig */,
+				F523AD18D7037D8844FE27CE /* Pods-Category_Network.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FD43E00E1F1741B9002AC077 = {
 			isa = PBXGroup;
 			children = (
 				FD43E0191F1741B9002AC077 /* Category_Network */,
 				FD43E0321F1741B9002AC077 /* Category_NetworkUITests */,
 				FD43E0181F1741B9002AC077 /* Products */,
+				B2A4634D3F004F7FF9EE3884 /* Pods */,
+				90BAEF0A5D55676C01A30772 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +108,7 @@
 		FD43E0191F1741B9002AC077 /* Category_Network */ = {
 			isa = PBXGroup;
 			children = (
+				FD8D60D31F174340006E03B0 /* Category_Network */,
 				FD43E01A1F1741B9002AC077 /* AppDelegate.h */,
 				FD43E01B1F1741B9002AC077 /* AppDelegate.m */,
 				FD43E01D1F1741B9002AC077 /* ViewController.h */,
@@ -103,6 +131,15 @@
 			path = Category_NetworkUITests;
 			sourceTree = "<group>";
 		};
+		FD8D60D31F174340006E03B0 /* Category_Network */ = {
+			isa = PBXGroup;
+			children = (
+				FD8D60D41F174355006E03B0 /* CTMediator+Network.h */,
+				FD8D60D51F174355006E03B0 /* CTMediator+Network.m */,
+			);
+			path = Category_Network;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -110,9 +147,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD43E0381F1741B9002AC077 /* Build configuration list for PBXNativeTarget "Category_Network" */;
 			buildPhases = (
+				2CD9F80D9C08213CAB91FC1D /* [CP] Check Pods Manifest.lock */,
 				FD43E0131F1741B9002AC077 /* Sources */,
 				FD43E0141F1741B9002AC077 /* Frameworks */,
 				FD43E0151F1741B9002AC077 /* Resources */,
+				19377856541B0E18BC21560F /* [CP] Embed Pods Frameworks */,
+				63BE5C1F88698ED0A756D76A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,11 +238,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19377856541B0E18BC21560F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Category_Network/Pods-Category_Network-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CD9F80D9C08213CAB91FC1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		63BE5C1F88698ED0A756D76A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Category_Network/Pods-Category_Network-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FD43E0131F1741B9002AC077 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD8D60D61F174355006E03B0 /* CTMediator+Network.m in Sources */,
 				FD43E01F1F1741B9002AC077 /* ViewController.m in Sources */,
 				FD43E02A1F1741B9002AC077 /* main.m in Sources */,
 				FD43E01C1F1741B9002AC077 /* AppDelegate.m in Sources */,
@@ -353,6 +442,7 @@
 		};
 		FD43E0391F1741B9002AC077 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FA59A6CF924E9358F0CEEEC /* Pods-Category_Network.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 875PFMJ4Q8;
@@ -366,6 +456,7 @@
 		};
 		FD43E03A1F1741B9002AC077 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F523AD18D7037D8844FE27CE /* Pods-Category_Network.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 875PFMJ4Q8;
@@ -422,6 +513,7 @@
 				FD43E03A1F1741B9002AC077 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD43E03B1F1741B9002AC077 /* Build configuration list for PBXNativeTarget "Category_NetworkUITests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +522,7 @@
 				FD43E03D1F1741B9002AC077 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
